@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
+
+ 
+header {
+    background-color: #730101;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+nav {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid #ddd;
+    border-radius: 30px;
+    border-width: 2px;
+}
+nav a {
+    color: #fffdfd;
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #fbfbfb;
+    padding: 10px 20px;
+    border-radius: 30px;
+   font-size: 15px;
+
+}
+nav a:hover {
+    background-color: #ff0000;
+}
+
+
+
+section {
+    padding: 20px;
+    text-align: center;
+
+}
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.box-container .box {
+    height: 170px;
+    width: 270px;
+    background: #000000;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow:  0 5px rgba(0, 0, 0, .3);
+    margin: 20px;
+}
+
+h3{
+    color: #fff;
+}
+
+.fondo{
+    background-color: rgb(28, 155, 40);
+    margin: 50px;
+    padding: 50px;
+    border: 5px solid #000000;
+    border-radius: 30px;
+    border-width: 2px;
+
+}
+
+.noticias{
+    display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+}
+ .foto{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    border-radius: 30px;
+    border-width: 2px;
+
+}
+
+.redes-sociales {
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #ddd;
+    border-radius: 30px;
+    border-width: 2px;
+
+
+}
+
+.instagram{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 1790px;
+    left: 520px;
+    border: 2px solid #000000;
+    border-radius: 30px;
+
+   
+
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 1799px;
+    left: 860px;
+    border: 2px solid #000000;
+    border-radius: 30px;
+   
+
+}
+
+.redes-sociales ul {
+    padding: 0;
+}
+
+.redes-sociales ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.redes-sociales ul li a {
+    color: #000000;
+    text-decoration: none;
+    background-color: #fbfbfb;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.redes-sociales ul li a:hover{
+ background-color: red;
+ 
+}
+footer {
+    background-color: #b41414;
+    color: #ffffff;
+    text-align: center;
+    padding: 00px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
